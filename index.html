@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookingApp UI Showcase</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Animated Background -->
+    <div class="ambient-bg">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar fadeIn">
+        <div class="container nav-wrap">
+            <div class="logo">Booking<span>App</span></div>
+            <div class="nav-links">
+                <a href="#showcase">UI Screens</a>
+                <a href="#features">Features</a>
+                <a href="#highlights">Highlights</a>
+            </div>
+            <a href="#cta" class="nav-btn">Get App Kit</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content fade-up fade-delay-1">
+                <div class="pill-badge">Revolutionizing User Experience</div>
+                <h1 class="hero-title">Smart Appointment Booking <span class="text-gradient">Made Easy</span></h1>
+                <p class="hero-subtitle">Book services instantly with a seamless mobile experience designed for the future of productivity.</p>
+                <div class="hero-actions">
+                    <a href="#showcase" class="btn btn-primary glow-effect">Explore App UI
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual fade-up fade-delay-2">
+                <!-- Dual Phone Mockups -->
+                <div class="phone-mockup phone-front tilt-effect">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen" style="background-image: url('https://images.unsplash.com/photo-1618761714954-0b8cd0026356?auto=format&fit=crop&w=400&q=80')">
+                        <!-- Simulated UI elements -->
+                        <div class="ui-header">
+                            <div class="ui-avatar"></div>
+                            <div class="ui-text-lines"><div class="line short"></div><div class="line medium"></div></div>
+                        </div>
+                        <div class="ui-card large glass-ui">
+                            <h3>Next Appointment</h3>
+                            <div class="ui-time">10:00 AM</div>
+                        </div>
+                        <div class="ui-grid">
+                            <div class="ui-box glass-ui"></div>
+                            <div class="ui-box glass-ui"></div>
+                            <div class="ui-box glass-ui"></div>
+                            <div class="ui-box glass-ui"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-mockup phone-back">
+                    <div class="phone-notch"></div>
+                    <div class="phone-screen" style="background-image: url('https://images.unsplash.com/photo-1557682250-33bd709cbe85?auto=format&fit=crop&w=400&q=80')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- App Screens Showcase Horizontal Scroll -->
+    <section class="showcase" id="showcase">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>The Complete <span class="text-gradient">Flow</span></h2>
+                <p>From onboarding to confirmation, every screen is crafted for pure engagement.</p>
+            </div>
+        </div>
+        
+        <div class="scrolling-wrapper fade-up fade-delay-1">
+            
+            <!-- Screen 1: Onboarding -->
+            <div class="showcase-item tilt-effect">
+                <div class="phone-device">
+                    <div class="phone-notch"></div>
+                    <div class="screen-content bg-onboarding">
+                        <div class="ui-illustration"></div>
+                        <h2>Welcome</h2>
+                        <div class="ui-btn-mockup">Start</div>
+                    </div>
+                </div>
+                <div class="screen-label">01. Onboarding</div>
+            </div>
+
+            <!-- Screen 2: Login -->
+            <div class="showcase-item tilt-effect">
+                <div class="phone-device">
+                    <div class="phone-notch"></div>
+                    <div class="screen-content bg-login">
+                        <div class="ui-logo-mockup"></div>
+                        <div class="ui-input-mockup"></div>
+                        <div class="ui-input-mockup"></div>
+                        <div class="ui-btn-mockup">Sign In</div>
+                    </div>
+                </div>
+                <div class="screen-label">02. Login Screen</div>
+            </div>
+
+            <!-- Screen 3: Services -->
+            <div class="showcase-item tilt-effect">
+                <div class="phone-device">
+                    <div class="phone-notch"></div>
+                    <div class="screen-content bg-services">
+                        <div class="ui-search-mockup glass-ui"></div>
+                        <div class="ui-list">
+                            <div class="ui-list-item glass-ui"></div>
+                            <div class="ui-list-item glass-ui"></div>
+                            <div class="ui-list-item glass-ui"></div>
+                            <div class="ui-list-item glass-ui"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="screen-label">03. Service Selection</div>
+            </div>
+
+            <!-- Screen 4: Booking -->
+            <div class="showcase-item tilt-effect">
+                <div class="phone-device">
+                    <div class="phone-notch"></div>
+                    <div class="screen-content bg-booking">
+                        <div class="ui-calendar-mockup glass-ui"></div>
+                        <div class="ui-time-slots">
+                            <div class="ui-slot glass-ui active">10:00</div>
+                            <div class="ui-slot glass-ui">11:00</div>
+                            <div class="ui-slot glass-ui">12:00</div>
+                        </div>
+                        <div class="ui-btn-mockup mt-auto">Confirm</div>
+                    </div>
+                </div>
+                <div class="screen-label">04. Booking Time</div>
+            </div>
+
+            <!-- Screen 5: Confirmation -->
+            <div class="showcase-item tilt-effect">
+                <div class="phone-device">
+                    <div class="phone-notch"></div>
+                    <div class="screen-content bg-success">
+                        <div class="ui-success-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M20 6L9 17l-5-5"/></svg>
+                        </div>
+                        <h2>Confirmed!</h2>
+                        <div class="ui-card glass-ui text-center">Ref: #Booking99X</div>
+                    </div>
+                </div>
+                <div class="screen-label">05. Confirmation</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card glass-panel fade-up">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+                    <h3>Fast Booking</h3>
+                    <p>Reduce friction with one-tap scheduling and intuitive date pickers.</p>
+                </div>
+                <div class="feature-card glass-panel fade-up fade-delay-1">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
+                    <h3>Smart Scheduling</h3>
+                    <p>AI-powered suggestions automatically align availability with user habits.</p>
+                </div>
+                <div class="feature-card glass-panel fade-up fade-delay-2">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+                    <h3>User-Friendly Interface</h3>
+                    <p>Flawless minimalism ensures any demographic can navigate effortlessly.</p>
+                </div>
+                <div class="feature-card glass-panel fade-up fade-delay-3">
+                    <div class="feature-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+                    <h3>Real-Time Availability</h3>
+                    <p>Instant synchronization with cloud calendars prevents double bookings.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- UI Highlights -->
+    <section class="highlights" id="highlights">
+        <div class="container highlights-wrap">
+            <div class="highlights-text fade-up">
+                <h2>Designed for <br><span class="text-gradient">Pure Delight</span></h2>
+                <p>We believe utility shouldn't sacrifice aesthetic. Micro-interactions and deeply refined glass elements build trust and drastically lower bounce rates on your booking funnels.</p>
+                <ul class="highlight-list">
+                    <li><div class="check-circle"></div> 60 FPS Smooth Flow</li>
+                    <li><div class="check-circle"></div> Dark & Light Modes</li>
+                    <li><div class="check-circle"></div> Haptic Feedback Ready</li>
+                </ul>
+            </div>
+            <div class="highlights-visual fade-up fade-delay-1">
+                <!-- Abstract floating UI elements -->
+                <div class="glass-panel highlight-widget widget-main tilt-effect">
+                    <div class="pulse-dot"></div>
+                    <div class="hw-text">Processing Payment</div>
+                    <div class="hw-loader"></div>
+                </div>
+                <div class="glass-panel highlight-widget widget-sub tilt-effect">
+                    <div class="hw-avatar"></div>
+                    <div class="hw-text">Sarah Assigned</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta" id="cta">
+        <div class="container container-sm">
+            <div class="cta-box glass-panel fade-up">
+                <h2>Ready to redefine your user experience?</h2>
+                <p>Start Booking Smarter Today.</p>
+                <button class="btn btn-primary btn-xl glow-effect mt-8">Download App UI Kit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-flex">
+            <div class="logo">Booking<span>App</span></div>
+            <div class="footer-links-mini">
+                <a href="#">Dribbble</a>
+                <a href="#">Twitter</a>
+                <a href="#">License</a>
+            </div>
+            <div class="copyright">© 2026 BookingApp Showcase. Crafted with precision.</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
